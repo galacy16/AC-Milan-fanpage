@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <title>AC Milan Fanpage</title>
+    </head>
+    <body>
+        <!-- Start of navigation -->
+        <header>
+            <navbar>
+                <div class="topnav sticky" id="myTopnav">
+                    <a href="index.html">Home</a>
+                    <a href="news.html">News</a>
+                    <a href="season.html">Season</a>
+                    <a href="standings.html">Standings</a>
+                    <a href="squad.html">Squad</a>
+                    <a
+                        href="javascript:void(0);"
+                        class="icon"
+                        onclick="myFunction()"
+                    >
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </navbar>
+        </header>
+        <!-- End of navigation -->
+
+        <!-- Start of current squad -->
+        <section class="squad">
+            <div class="standings">
+                <h2>Current squad</h2>
+            </div>
+
+            <div>
+                <table class="demo">
+                    <caption></caption>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Nationality</th>
+                            <th>Image</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>16</td>
+                            <td>Mike Maignan</td>
+                            <td>Goalkeeper</td>
+                            <td>french</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/maignan.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/maignan.jpg"
+                                        alt="Maignan"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Ciprian Tătăruşanu</td>
+                            <td>Goalkeeper</td>
+                            <td>romanian</td>
+                            <td>
+                                <a target="_blank" href="images/squad/tata.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/tata.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>83</td>
+                            <td>Antonio Mirante</td>
+                            <td>Goalkeeper</td>
+                            <td>italian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/mirrante.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/mirrante.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Fodé Ballo-Touré</td>
+                            <td>Defender</td>
+                            <td>senegalese</td>
+                            <td>
+                                <a target="_blank" href="images/squad/balo.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/balo.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Davide Calabria</td>
+                            <td>Defender</td>
+                            <td>talian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/calabria.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/calabria.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>21</td>
+                            <td>Sergino Dest</td>
+                            <td>Defender</td>
+                            <td>american</td>
+                            <td>
+                                <a target="_blank" href="images/squad/dest.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/dest.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>25</td>
+                            <td>Alessandro Florenzi</td>
+                            <td>Defender</td>
+                            <td>italian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/florenzi.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/florenzi.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>46</td>
+                            <td>Matteo Gabbia</td>
+                            <td>Defender</td>
+                            <td>italian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/gabbia.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/gabbia.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>19</td>
+                            <td>Theo Hernández</td>
+                            <td>Defender</td>
+                            <td>french</td>
+                            <td>
+                                <a target="_blank" href="images/squad/theo.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/theo.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>20</td>
+                            <td>Pierre Kalulu</td>
+                            <td>Defender</td>
+                            <td>french</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/kalulu.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/kalulu.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>24</td>
+                            <td>Simon Kjær</td>
+                            <td>Defender</td>
+                            <td>danish</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/kjaer.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/kjaer.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>28</td>
+                            <td>Malick Thiaw</td>
+                            <td>Defender</td>
+                            <td>german</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/thiaw.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/thiaw.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>23</td>
+                            <td>Fikayo Tomori</td>
+                            <td>Defender</td>
+                            <td>english</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/tomori.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/tomori.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>7</td>
+                            <td>Yacine Adli</td>
+                            <td>Midfielder</td>
+                            <td>french</td>
+                            <td>
+                                <a target="_blank" href="images/squad/adli.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/adli.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Tiémoué Bakayoko</td>
+                            <td>Midfielder</td>
+                            <td>french</td>
+                            <td>
+                                <a target="_blank" href="images/squad/baka.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/baka.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Ismaël Bennacer</td>
+                            <td>Midfielder</td>
+                            <td>algerian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/bennacer.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/bennacer.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Brahim Díaz</td>
+                            <td>Midfielder</td>
+                            <td>spanish</td>
+                            <td>
+                                <a target="_blank" href="images/squad/diaz.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/diaz.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>Rade Krunić</td>
+                            <td>Midfielder</td>
+                            <td>bosnian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/krunic.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/krunic.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>32</td>
+                            <td>Tomasso Pobega</td>
+                            <td>Midfielder</td>
+                            <td>italian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/pobega.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/pobega.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>56</td>
+                            <td>Alexis Saelemaekers</td>
+                            <td>Midfielder</td>
+                            <td>belgian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/saelemakers.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/saelemakers.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Sandro Tonali</td>
+                            <td>Midfielder</td>
+                            <td>italian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/tonali.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/tonali.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>Aster Vranckx</td>
+                            <td>Midfielder</td>
+                            <td>belgian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/vranckx.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/vranckx.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>90</td>
+                            <td>Charles De Ketelaere</td>
+                            <td>Forward</td>
+                            <td>belgian</td>
+                            <td>
+                                <a target="_blank" href="images/squad/cdk.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/cdk.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Olivier Giroud</td>
+                            <td>Forward</td>
+                            <td>french</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/giroud.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/giroud.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Zlatan Ibrahimović</td>
+                            <td>Forward</td>
+                            <td>swedish</td>
+                            <td>
+                                <a target="_blank" href="images/squad/ibra.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/ibra.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>Marko Lazetić</td>
+                            <td>Forward</td>
+                            <td>serbian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/lazetic.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/lazetic.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Rafael Leão</td>
+                            <td>Forward</td>
+                            <td>portuguese</td>
+                            <td>
+                                <a target="_blank" href="images/squad/leao.jpg">
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/leao.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>Junior Messias</td>
+                            <td>Forward</td>
+                            <td>brazilian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/messias.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/messias.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>27</td>
+                            <td>Divock Origi</td>
+                            <td>Forward</td>
+                            <td>belgian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/origi.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/origi.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Ante Rebić</td>
+                            <td>Forward</td>
+                            <td>croatian</td>
+                            <td>
+                                <a
+                                    target="_blank"
+                                    href="images/squad/rebic.jpg"
+                                >
+                                    <img
+                                        class="thumb"
+                                        src="images/squad/rebic.jpg"
+                                        alt="Tatarusanu"
+                                    />
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tbody></tbody>
+                </table>
+                
+                
+            </div>
+        </section>
+        <!-- End of Current squad -->
+
+        <!-- Radio button form -->
+        <section class="form">
+            <form action="vote">
+                <label class="label">Vote for your favourite player: </label
+                ><br />
+                <br />
+                <input
+                    type="radio"
+                    id="maignan"
+                    name="fav_player"
+                    value="maignan"
+                />
+                  <label for="html">Mike Maignan</label><br />
+                <input
+                    type="radio"
+                    id="tatarusanu"
+                    name="fav_player"
+                    value="tatarusanu"
+                />
+                  <label for="html">Ciprian Tătăruşanu</label><br />
+                <input
+                    type="radio"
+                    id="mirante"
+                    name="fav_player"
+                    value="mirante"
+                />
+                  <label for="html">Antonio Mirante</label><br />
+                <input
+                    type="radio"
+                    id="toure"
+                    name="fav_player"
+                    value="toure"
+                />
+                  <label for="html">Fodé Ballo-Touré</label><br />
+                <input
+                    type="radio"
+                    id="calabria"
+                    name="fav_player"
+                    value="calabria"
+                />
+                  <label for="html">Davide Calabria</label><br />
+                <input type="radio" id="dest" name="fav_player" value="dest" />
+                  <label for="html">Sergino Dest</label><br />
+                <input
+                    type="radio"
+                    id="florenzi"
+                    name="fav_player"
+                    value="florenzi"
+                />
+                  <label for="html">Alessandro Florenzi</label><br />
+                <input
+                    type="radio"
+                    id="gabbia"
+                    name="fav_player"
+                    value="gabbia"
+                />
+                  <label for="html">Matteo Gabbia</label><br />
+                <input type="radio" id="theo" name="fav_player" value="theo" />
+                  <label for="html">Theo Hernández</label><br />
+                <input
+                    type="radio"
+                    id="kalulu"
+                    name="fav_player"
+                    value="kalulu"
+                />
+                  <label for="html">Pierre Kalulu</label><br />
+                <input
+                    type="radio"
+                    id="kjaer"
+                    name="fav_player"
+                    value="kjaer"
+                />
+                  <label for="html">Simon Kjær</label><br />
+                <input
+                    type="radio"
+                    id="thiaw"
+                    name="fav_player"
+                    value="thiaw"
+                />
+                  <label for="html">Malick Thiaw</label><br />
+                <input
+                    type="radio"
+                    id="tomori"
+                    name="fav_player"
+                    value="tomori"
+                />
+                  <label for="html">Fikayo Tomori</label><br />
+                <input type="radio" id="adli" name="fav_player" value="adli" />
+                  <label for="html">Yacine Adli</label><br />
+                <input
+                    type="radio"
+                    id="bakayoko"
+                    name="fav_player"
+                    value="bakayoko"
+                />
+                  <label for="html">Tiémoué Bakayoko</label><br />
+                <input
+                    type="radio"
+                    id="bennacer"
+                    name="fav_player"
+                    value="bennacer"
+                />
+                  <label for="html">Ismaël Bennacer</label><br />
+                <input type="radio" id="diaz" name="fav_player" value="diaz" />
+                  <label for="html">Brahim Díaz</label><br />
+                <input
+                    type="radio"
+                    id="krunic"
+                    name="fav_player"
+                    value="krunic"
+                />
+                  <label for="html">Rade Krunić</label><br />
+                <input
+                    type="radio"
+                    id="pobega"
+                    name="fav_player"
+                    value="pobega"
+                />
+                  <label for="html">Tomasso Pobega</label><br />
+                <input
+                    type="radio"
+                    id="saelemaekers"
+                    name="fav_player"
+                    value="saelemaekers"
+                />
+                  <label for="html">Alexis Saelemaekers</label><br />
+                <input
+                    type="radio"
+                    id="tonali"
+                    name="fav_player"
+                    value="tonali"
+                />
+                  <label for="html">Sandro Tonali</label><br />
+                <input
+                    type="radio"
+                    id="vranckx"
+                    name="fav_player"
+                    value="vranckx"
+                />
+                  <label for="html">Aster Vranckx</label><br />
+                <input
+                    type="radio"
+                    id="ketelaere"
+                    name="fav_player"
+                    value="ketelaere"
+                />
+                  <label for="html">Charles de Ketelaere</label><br />
+                <input
+                    type="radio"
+                    id="giroud"
+                    name="fav_player"
+                    value="giroud"
+                />
+                  <label for="html">Olivier Giroud</label><br />
+                <input type="radio" id="ibra" name="fav_player" value="ibra" />
+                  <label for="html">Zlatan Ibrahimović</label><br />
+                <input
+                    type="radio"
+                    id="lazetic"
+                    name="fav_player"
+                    value="lazetic"
+                />
+                  <label for="html">Marko Lazetić</label><br />
+                <input type="radio" id="leao" name="fav_player" value="leao" />
+                  <label for="html">Rafael Leão</label><br />
+                <input
+                    type="radio"
+                    id="messias"
+                    name="fav_player"
+                    value="messias"
+                />
+                  <label for="html">Junior Messias</label><br />
+                <input
+                    type="radio"
+                    id="origi"
+                    name="fav_player"
+                    value="origi"
+                />
+                  <label for="html">Divock Origi</label><br />
+                <input
+                    type="radio"
+                    id="rebci"
+                    name="fav_player"
+                    value="rebci"
+                />
+                  <label for="html">Ante Rebić</label><br />
+
+                <input type="submit" />
+            </form>
+            
+        </section>
+        <!-- End of radio button form -->
+        <hr />
+
+        <!-- Start of footer -->
+        <footer class="footer">
+            <div class="social">
+                <a
+                    href="https://www.facebook.com/ACMilan"
+                    target="blank"
+                    class="fa fa-facebook"
+                ></a>
+                <a
+                    href="https://twitter.com/acmilan"
+                    target="blank"
+                    class="fa fa-twitter"
+                ></a>
+                <a
+                    href="https://www.instagram.com/acmilan/"
+                    target="blank"
+                    class="fa fa-instagram"
+                ></a>
+                <a
+                    href="https://www.twitch.tv/acmilan"
+                    target="blank"
+                    class="fa fa-twitch"
+                ></a>
+                <a
+                    href="https://www.youtube.com/channel/UCKcx1uK38H4AOkmfv4ywlrg"
+                    target="blank"
+                    class="fa fa-youtube"
+                ></a>
+                <a
+                    href="https://www.pinterest.com/carlosgalo/ac-milan/"
+                    target="blank"
+                    class="fa fa-pinterest"
+                ></a>
+                <a
+                    href="https://it.linkedin.com/company/ac-milan"
+                    target="blank"
+                    class="fa fa-linkedin"
+                ></a>
+            </div>
+
+            <div class="footer-copyright">
+                <p class="copyright">
+                    Copyright &copy; <span class="year"></span> by Laszlo Gall
+                  </p>
+            </div>
+        </footer>
+        <!-- End of footer -->
+
+        <script src="script.js"></script>
+    </body>
+</html>
